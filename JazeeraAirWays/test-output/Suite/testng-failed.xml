@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://ci.jazeeraairways.com/Ugrade4.3.0.111151/Search.aspx"/>
+  <test thread-count="5" verbose="5" name="Test(failed)">
+    <classes>
+      <class name="org.jazeera.testcases.JZ_TC_OW">
+        <methods>
+          <include name="killBrowser"/>
+          <include name="oneWayTC" invocation-numbers="0"/>
+          <include name="wakeUpBrowser"/>
+          <include name="setData"/>
+        </methods>
+      </class> <!-- org.jazeera.testcases.JZ_TC_OW -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

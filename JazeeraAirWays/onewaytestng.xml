@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url"
+		value="https://ci.jazeeraairways.com/Ugrade4.3.0.111151/Search.aspx"></parameter>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="org.jazeera.testcases.JZ_TC_OW" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
